@@ -1,0 +1,14 @@
+server:
+  port: 8000
+encrypt:
+  key: Gunjan
+  
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/bangalore-geek/dairy-config-server-properties
+          force-pull: true
+        encrypt:
+          enabled: false

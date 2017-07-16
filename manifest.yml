@@ -1,0 +1,6 @@
+---
+applications:
+- name: dairy-config-server
+  memory: 512M
+  buildpack: java_buildpack
+  path: target/dairy-config-server-0.0.1-SNAPSHOT.jar
